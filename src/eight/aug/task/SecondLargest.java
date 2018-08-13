@@ -24,6 +24,14 @@ public static void main(String[] args) {
 		}
 	}
 }
-	System.out.println("the second largest number in array is ::"+a[n-2]);
+    System.out.println("the nth largest number of an array ::");
+    int n1=s.nextInt();
+    for (int i = 0; i < n; i++) {
+    	if(i==n1)
+    	{
+    	System.out.println("the "+n1+"nd largest number in array is ::"+a[n-n1]);
+    	}
+	}
+	
 	s.close();
 }}
